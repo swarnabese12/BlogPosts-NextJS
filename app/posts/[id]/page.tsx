@@ -82,7 +82,6 @@ export default async function PostPage({ params }: { params: { id: string } }) {
           </span>
         </div>
 
-        {/* Social Sharing Buttons */}
         <div className="mt-6 flex items-center space-x-4">
           <span className="text-lg font-semibold text-[#a3386c]">
             Share this post:
@@ -129,7 +128,6 @@ export default async function PostPage({ params }: { params: { id: string } }) {
           </a>
         </div>
 
-        {/* Footer with Author and Date */}
         <div className="mt-8 flex justify-between items-center border-t border-gray-200 pt-4">
           <div className="text-sm text-gray-500">
             <span>Written by: </span>
